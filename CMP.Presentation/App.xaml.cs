@@ -31,7 +31,7 @@ namespace CMP.Presentation
         private void Application_Startup_1(object sender, StartupEventArgs e)
         {
             SGCVariables.AsirClientListModulo = new List<string>() { "ALM", "MNF", "CRM", "VTA", "CMP" };
-            SGCVariables.ConectionString = @"Data Source =  192.168.0.40\SYSTEMSSQL2012R2; DataBase = ERP_SGC_LOCAL; User Id = sgc_local; Password = sgclocal2016";
+            SGCVariables.ConectionString = @"Data Source =  192.168.0.40; DataBase = ERP_SGC_LOCAL; User Id = sysdemo; Password = sysadmin1";
             //SGCVariables.ConectionString = @"Data Source=LTP-SYSTEMS-02\SQL2012R2EXP; DataBase = ERP_SGC; User Id = sa; Password = solutions01+";
 
             SGCVariables.ObjESGC_Usuario = new SGC.Empresarial.Entity.ESGC_Usuario()
