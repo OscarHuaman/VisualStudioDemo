@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{7441F7ED-EB7D-477B-8232-A2DF858152DD}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CMP.Presentation</RootNamespace>
     <AssemblyName>CMP.Presentation</AssemblyName>
@@ -168,10 +168,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Resource Include="App.xaml">
+    <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Resource>
+    </ApplicationDefinition>
     <Compile Include="Compra\Flyouts\PCMP_BuscarAnticipo.xaml.cs">
       <DependentUpon>PCMP_BuscarAnticipo.xaml</DependentUpon>
     </Compile>
