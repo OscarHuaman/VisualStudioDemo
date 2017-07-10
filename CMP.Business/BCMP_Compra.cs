@@ -3,6 +3,11 @@
 '* CREADO POR	 : COMPUTER SYSTEMS SOLUTION
 '*				   ABEL QUISPE ORELLANA
 '* FCH. CREACIÓN : 11/12/2015
+**********************************************************
+'* PRUEBA DE REPOSITORIO GITHUB
+'* CREADO POR	 : COMPUTER SYSTEMS SOLUTION
+'*				   OSCAR HUAMAN CABRERA
+'* FCH. CREACIÓN : 10/07/2017
 **********************************************************/
 namespace CMP.Business
 {
