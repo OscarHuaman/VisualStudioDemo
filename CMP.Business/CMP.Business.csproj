@@ -68,20 +68,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BCMP_NotaCreditoDebito.cs" />
-    <Compile Include="BCMP_NotaCreditoDebitoDetalle.cs" />
-    <Compile Include="BCMP_OrdenCompra.cs" />
-    <Compile Include="BCMP_OrdenCompraDetalle.cs" />
-    <Compile Include="BCMP_OrdenServicio.cs" />
-    <Compile Include="BCMP_OrdenServicioDetalle.cs" />
-    <Compile Include="BCMP_Compra.cs" />
-    <Compile Include="BCMP_CompraDetalle.cs" />
-    <Compile Include="BCMP_ReporteGastosInternos.cs" />
-    <Compile Include="BCMP_ReporteGrlDocumento.cs" />
-    <Compile Include="BCMP_ReporteGrlHonorario.cs" />
-    <Compile Include="BCMP_ReporteStockMinimo.cs" />
-    <Compile Include="BCMP_TempArticuloListaPrecio.cs" />
-    <Compile Include="BCMP_CuentasPorPagar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

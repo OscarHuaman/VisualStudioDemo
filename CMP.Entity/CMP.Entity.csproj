@@ -57,23 +57,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ECMP_CompraDetalle.cs" />
-    <Compile Include="ECMP_Compra.cs" />
-    <Compile Include="%28Stalin%29 ECMP_DataMartixReport.cs" />
-    <Compile Include="%28Stalin%29 ECMP_DataTitleReport.cs" />
-    <Compile Include="%28Stalin%29 ECMP_FilterPropertyData.cs" />
-    <Compile Include="ECMP_CuentasPorPagar.cs" />
-    <Compile Include="ECMP_NotaCreditoDebito.cs" />
-    <Compile Include="ECMP_NotaCreditoDebitoDetalle.cs" />
-    <Compile Include="ECMP_ValueComboBox.cs" />
-    <Compile Include="ECMP_OrdenCompra.cs" />
-    <Compile Include="ECMP_OrdenCompraDetalle.cs" />
-    <Compile Include="ECMP_OrdenServicio.cs" />
-    <Compile Include="ECMP_OrdenServicioDetalle.cs" />
-    <Compile Include="ECMP_ReporteGastosInternos.cs" />
-    <Compile Include="ECMP_ReporteGrlDocumento.cs" />
-    <Compile Include="ECMP_ReporteGrlHonorario.cs" />
-    <Compile Include="ECMP_ReporteStockMinimo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

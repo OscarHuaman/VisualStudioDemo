@@ -117,34 +117,6 @@
     <Compile Include="App4.xaml.cs">
       <DependentUpon>App4.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Compra\Flyout\PCMP_BuscarCompra.xaml.cs">
-      <DependentUpon>PCMP_BuscarCompra.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Compra\VM\VCMP_BuscarCompra.cs" />
-    <Compile Include="Converts\ConvertCreditState.cs" />
-    <Compile Include="Converts\ConvertDebitState.cs" />
-    <Compile Include="Converts\ConvertToEnablebFromLength.cs" />
-    <Compile Include="Converts\ConvertToVisibilityColumns.cs" />
-    <Compile Include="Converts\ConvertToVIsibilityFromFalse.cs" />
-    <Compile Include="Converts\ConvertToVisibilityFromTrue.cs" />
-    <Compile Include="Converts\ConvertToVisibleFromType.cs" />
-    <Compile Include="CuentasPorPagar\Pages\PCMP_CuentasPorPagar.xaml.cs">
-      <DependentUpon>PCMP_CuentasPorPagar.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="CuentasPorPagar\Pages\PCMP_ListadoReciboGastosInternos.xaml.cs">
-      <DependentUpon>PCMP_ListadoReciboGastosInternos.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="CuentasPorPagar\VM\VCMP_CuentasPorPagar.cs" />
-    <Compile Include="CuentasPorPagar\VM\VCMP_ListadoReciboGastosInternos.cs" />
-    <Compile Include="Method\MDatePicker.cs" />
-    <Compile Include="NotaCreditoDebito\Pages\PCMP_ListadoNotaCreditoDebito.xaml.cs">
-      <DependentUpon>PCMP_ListadoNotaCreditoDebito.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="NotaCreditoDebito\Pages\PCMP_NotaCreditoDebito.xaml.cs">
-      <DependentUpon>PCMP_NotaCreditoDebito.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="NotaCreditoDebito\VM\VCMP_ListarNotaCreditoDebito.cs" />
-    <Compile Include="NotaCreditoDebito\VM\VCMP_NotaCreditoDebito.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -158,18 +130,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="ReporteGeneralDocumento\Page\PCMP_ListadoDocumento.xaml.cs">
-      <DependentUpon>PCMP_ListadoDocumento.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ReporteGeneralDocumento\VM\VCMP_ListadoDocumento.cs" />
-    <Compile Include="ReporteGeneralHonorario\Page\PCMP_ListadoHonorario.xaml.cs">
-      <DependentUpon>PCMP_ListadoHonorario.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ReporteGeneralHonorario\VM\VCMP_ListadoHonorario.cs" />
-    <Compile Include="ReporteStockMinimo\Page\PCMP_ListadoStockMinimo.xaml.cs">
-      <DependentUpon>PCMP_ListadoStockMinimo.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ReporteStockMinimo\VM\VCMP_ListadoStockMinimo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -216,86 +176,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Page Include="ReporteStockMinimo\Page\PCMP_ListadoStockMinimo.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Resource Include="App4.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Resource>
-    <Page Include="Compra\Flyout\PCMP_BuscarCompra.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="CuentasPorPagar\Pages\PCMP_CuentasPorPagar.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="CuentasPorPagar\Pages\PCMP_ListadoReciboGastosInternos.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="NotaCreditoDebito\Pages\PCMP_ListadoNotaCreditoDebito.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="NotaCreditoDebito\Pages\PCMP_NotaCreditoDebito.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="ReporteGeneralDocumento\Page\PCMP_ListadoDocumento.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="ReporteGeneralHonorario\Page\PCMP_ListadoHonorario.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Source\ima.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Source\Add.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Source\Search.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Source\Data.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Source\back.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Source\contacts.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Source\Close.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Source\save.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Source\Remove.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Source\print.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Source\Edit.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
   <ItemGroup />

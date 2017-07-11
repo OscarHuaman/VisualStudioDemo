@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMP.Business", "CMP.Business\CMP.Business.csproj", "{CCCD4610-AE23-4C7C-B758-7B6A259931E6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMP.Entity", "CMP.Entity\CMP.Entity.csproj", "{3D17F275-565C-4E3F-9F6C-D9F07B163EAC}"
